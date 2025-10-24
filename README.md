@@ -27,7 +27,7 @@ Khi trang gốc đã tồn tại, Backlog sẽ tự động đặt tên trang m�
 2. Truy cập liên kết sau:  
    [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 3. Nhấn **"Add to Chrome"**, sau đó chọn **"Add extension"**.
-4. Sau khi cài xong, sẽ thấy biểu tượng **Tampermonkey** (hình con khỉ) ở góc trên bên phải thanh địa chỉ.
+4. Sau khi cài xong, sẽ thấy biểu tượng **Tampermonkey** ở góc trên bên phải thanh địa chỉ.
 
 ---
 
