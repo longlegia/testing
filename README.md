@@ -1,10 +1,16 @@
 # Hướng Dẫn Cài Đặt Nút "Copy" Bài Wiki Trên Backlog
 
 ## Mục đích
-Script này giúp sao chép toàn bộ nội dung một trang Wiki trên Backlog thành một trang mới, có tên giống trang gốc nhưng thêm hậu tố `-copy` và nằm cùng cấp thư mục.
+Script này giúp **sao chép toàn bộ nội dung** của một **trang Wiki trên Backlog thành một trang mới ở cùng cấp thư mục**.
+Khi trang gốc đã tồn tại, Backlog sẽ tự động đặt tên trang mới theo quy tắc:
+ 
+ * Nếu tên gốc là **Home**, trang sao chép đầu tiên sẽ là **Home (2)**,
+ * Lần sao chép tiếp theo: **Home (3)**, rồi **Home (4)**, v.v.
 
-**Ví dụ**:  
-Sao chép trang `tech/AWS/AWS用語` → tạo ra trang mới `tech/AWS/AWS用語-copy`.
+**Ví dụ**:
+ * Trang gốc: **tech/AWS/AWS用語**
+ * Trang sao chép đầu tiên: **tech/AWS/AWS用語 (2)**
+ * Trang sao chép lần thứ hai: **tech/AWS/AWS用語 (3)**
 
 ---
 
