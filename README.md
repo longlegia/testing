@@ -33,27 +33,22 @@ Khi trang gốc đã tồn tại, Backlog sẽ tự động đặt tên trang m�
 
 ## Bước 2: Bật quyền chạy script người dùng
 
-> **Lưu ý**: Từ Chrome phiên bản 138 trở lên, **bắt buộc** phải bật quyền này. Hãy làm theo 2 bước bên dưới.
+> **Lưu ý**: Từ **Chrome 138** trở lên, bắt buộc phải bật quyền này để script hoạt động. 
 
-### 1. Qua trang quản lý tiện ích Chrome
-  1. Mở trang quản lý tiện ích của Chrome
-     * Nhấp vào biểu tượng **ba chấm dọc (⋯)** ở góc trên bên phải trình duyệt.
-     * Chọn **Extensions** → sau đó chọn **Manage Extensions**.
-  2. Tìm tiện ích **Tampermonkey**
-     * Trong danh sách tiện ích hiện ra, tìm mục có tên “**Tampermonkey**”.
-     * Đảm bảo tiện ích **đang được bật** (nút chuyển sang **màu xanh da trời**). Nếu chưa bật, hãy nhấp vào nút đó để bật.
-  3. Vào chi tiết tiện ích
-     * Nhấp vào nút “**Details**” (Chi tiết) bên dưới tên **Tampermonkey**.
-  4. Bật tính năng “**Allow User Scripts**”
-     * Trong phần “**Extension options**” hoặc gần đầu trang chi tiết, tìm tùy chọn “**Allow User Scripts**”.
-     * **Bật công tắc** này (chuyển sang màu xanh).
-
-### 2. Qua trang quản lý tiện ích
-  1. Gõ vào thanh địa chỉ:  
-  ```
-  chrome://extensions/
-  ```
-  2. Ở góc trên bên phải, bật **"Developer mode"** (Chế độ dành cho nhà phát triển).
+1. Mở trang quản lý tiện ích
+   * Sao chép và dán dòng sau vào thanh địa chỉ của Chrome, rồi nhấn **Enter**:
+    ```
+    chrome://extensions/
+    ```
+2. Bật Chế độ dành cho nhà phát triển
+   * Ở góc trên bên phải trang, bật công tắc "**Developer mode**".
+3. Tìm và mở chi tiết **Tampermonkey**
+   * Cuộn xuống tìm tiện ích có tên "**Tampermonkey**".
+   * Đảm bảo tiện ích **đang bật** (nút chuyển sang màu xanh). Nếu chưa, hãy nhấp vào để bật.
+   * Nhấp vào nút "**Details**" (Chi tiết) bên dưới tên tiện ích.
+4. Bật quyền "**Allow User Scripts**"
+   * Trong trang chi tiết, tìm mục "**Allow User Scripts**" (thường ở đầu trang, dưới phần "Extension options").
+   * **Bật công tắc** này (chuyển sang màu xanh).
 
 ---
 
