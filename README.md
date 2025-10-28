@@ -7,7 +7,7 @@ Khi sao chép trang wiki, trang mới sẽ được đặt tên theo quy tắc s
 Nếu tên gốc là **Home**, trang sao chép đầu tiên sẽ là **Home (2)**.
 Lần sao chép tiếp theo: **Home (3)**, rồi **Home (4)**, v.v.
 
-Script **tự động chọn số nhỏ nhất chưa được dùng** — bắt đầu từ **2 trở lên — bất kể đang đứng ở trang gốc hay trang đã được sao chép trước đó**.
+**Tên trang wiki mới tự động chọn số nhỏ nhất chưa được dùng** — bắt đầu từ **2 trở lên — bất kể đang đứng ở trang gốc hay trang đã được sao chép trước đó**.
 
 **Ví dụ**: 
  * Trang gốc: `tech/AWS/AWS用語`
