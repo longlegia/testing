@@ -35,7 +35,7 @@ Script **tự động chọn số nhỏ nhất chưa được dùng** — bắt 
 
 ## Bước 2: Bật quyền chạy script người dùng
 
-> **Lưu ý**: Từ **Chrome 138** trở lên, bắt buộc phải bật quyền này để script hoạt động. 
+**Lưu ý**: Từ **Chrome 138** trở lên, bắt buộc phải bật quyền này để script hoạt động. 
 
 1. Mở trang quản lý tiện ích
    * Sao chép và dán dòng sau vào thanh địa chỉ của Chrome, rồi nhấn **Enter**:
@@ -69,7 +69,7 @@ const API_KEY = 'iaCfXKsKns7QPh2TvsU7Ltzjy6WGRy0vlz1NSLV**************';
 ```
 6. Nhấn **Ctrl + S** (Windows) hoặc **Cmd + S** (Mac) để lưu.
 
-> Hoàn tất! Khi truy cập bất kỳ trang Wiki nào trên Backlog, nút "**Copy**" sẽ tự động xuất hiện.
+**Hoàn tất! Khi truy cập bất kỳ trang Wiki nào trên Backlog, nút "Copy" sẽ tự động xuất hiện.**
 
 ---
 
@@ -82,7 +82,7 @@ const API_KEY = 'iaCfXKsKns7QPh2TvsU7Ltzjy6WGRy0vlz1NSLV**************';
 6. Nhấn "**Submit**".
 7. Hệ thống sẽ hiển thị **API Key** — hãy sao chép toàn bộ chuỗi này và dán vào script như hướng dẫn ở Bước 3.
 
-> **Lưu ý quan trọng**: Không chia sẻ **API Key** với bất kỳ ai. 
+**Lưu ý quan trọng: Không chia sẻ API Key với bất kỳ ai.**
 
 ---
 
