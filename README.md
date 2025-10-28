@@ -1,9 +1,18 @@
 # Hướng Dẫn Cài Đặt Nút "Copy" Bài Wiki Trên Backlog
 
 ## Mục đích
-Nút copy này sao chép trang **wiki hiện tại** thành **một trang mới** có tên giống hệt ở **cùng cấp thư mục**, nhưng thêm số trong ngoặc đơn ở cuối (ví dụ: **Home** → **Home (2)**).
+Nút **Copy** này giúp **sao chép toàn bộ nội dung** của một **trang Wiki trên Backlog thành một trang mới ở cùng cấp thư mục**.
 
-Nó tự động chọn số nhỏ nhất chưa được dùng — bắt đầu từ **2 trở lên** — bất kể đang đứng ở trang gốc hay trang đã được sao chép trước đó.
+Khi sao chép trang wiki, trang mới sẽ được đặt tên theo quy tắc sau:
+Nếu tên gốc là **Home**, trang sao chép đầu tiên sẽ là **Home (2)**.
+Lần sao chép tiếp theo: **Home (3)**, rồi **Home (4)**, v.v.
+
+Script **tự động chọn số nhỏ nhất chưa được dùng** — bắt đầu từ **2 trở lên — bất kể đang đứng ở trang gốc hay trang đã được sao chép trước đó**.
+
+**Ví dụ**: 
+ * Trang gốc: `tech/AWS/AWS用語`
+ * Trang sao chép đầu tiên: `tech/AWS/AWS用語 (2)`
+ * Trang sao chép lần thứ hai: `tech/AWS/AWS用語 (3)`
 
 ---
 
